@@ -1,6 +1,7 @@
 import { DetailPage } from './../detail/detail';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HomeProvider } from '../../providers/home/home';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +9,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private homeProvider: HomeProvider) {
 
+  }
+
+  ionViewDidLoad() {
+    console.log('home load');
   }
 
   ionViewWillEnter() {
