@@ -12,15 +12,15 @@ export class Step_2Page {
   }
 
   ionViewDidLoad() {
-    console.log('step 1 load');
+    console.log('step 2 load');
   }
 
   ionViewWillEnter() {
-    console.log('step 1 will enter');
+    console.log('step 2 will enter');
   }
 
   ionViewWillLeave() {
-    console.log('step 1 will leave');
+    console.log('step 2 will leave');
   }
 
   goHome() {
